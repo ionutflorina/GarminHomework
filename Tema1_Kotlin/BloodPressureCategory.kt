@@ -1,5 +1,6 @@
 package com.example.tema1
 
+
 enum class CategoryBloodPressure {
     NORMAL,
     ELEVATED,
@@ -7,6 +8,7 @@ enum class CategoryBloodPressure {
     HYPERTENSION_STAGE2,
     HYPERTENSIVE_CRISIS
 }
+
 
 fun bloodPressure(systolic: Int, diastolic: Int): CategoryBloodPressure {
     lateinit var category: CategoryBloodPressure
